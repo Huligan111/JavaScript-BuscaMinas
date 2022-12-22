@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Minas</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-2 ">
+        <!-- Aquí comienza la primera fila de cuatro columnas -->
+        <div class="row"> 
+            <!-- Cada columna va a ocupar 3 columnas de las 12 disponibles -->
+            <div class="col-sm-3">
+                <label for="">Numero de filas</label>
+                <input type="number" class="form-control" id="numFilas" min="3" max="100" value="10" required>
+            </div>
+
+            <div class="col-sm-3 mb-2">
+                <label for="">Numero de columnas</label>
+                <input type="number" class="form-control" id="numColumnas" min="3" max="50" value="10" required>
+            </div>
+
+            <div class="col-sm-3">
+                <label for="">Numero de minas</label>
+                <input type="number" class="form-control" id="numMinas" min="1" value="1" required>
+            </div>
+
+            <div class="col-sm-3">
+                <label for="">Generar busca minas </label>
+                <button class="btn btn-primary" onclick="dirigente();">Generar busca minas</button>
+            </div>
+        </div>
+        
+    <div class="contenedor">
+        <div id="contenedorTabla">
+            <!-- Este contenedor va a contener la tabla generada -->
+        </div>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

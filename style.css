@@ -1,0 +1,24 @@
+table,
+tr,
+td {
+  border: 1px solid rgb(216, 209, 209);
+  border-collapse: collapse;
+  /* Color transparente de las celdas de la tabla */
+  background-color: transparent;
+  /* Dar un ancho fijo de las celdas*/
+  table-layout: fixed;
+  width: 25px;
+  height: 25px;
+}
+
+td {
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*Este contenedor sitúa el contenedor que contiene al centro por el horizonte*/
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
