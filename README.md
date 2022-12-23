@@ -14,3 +14,5 @@ La aplicación debe desarrollarse de forma modular, utilizando funciones:
     Otra función que recorra el tablero marcando en las casillas vacías el número de minas colindantes.
     Una función más que dibuje el tablero en la página.
     Las funciones extra con utilidad propia que consideres necesarias.
+
+[![busca-Minas.png](https://i.postimg.cc/288HD5vr/busca-Minas.png)](https://postimg.cc/hh688cp5)
