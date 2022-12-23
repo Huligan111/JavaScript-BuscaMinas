@@ -16,3 +16,6 @@ La aplicación debe desarrollarse de forma modular, utilizando funciones:
     Las funciones extra con utilidad propia que consideres necesarias.
 
 [![busca-Minas.png](https://i.postimg.cc/288HD5vr/busca-Minas.png)](https://postimg.cc/hh688cp5)
+
+Como se pone imagen
+https://www.youtube.com/watch?v=Xy8W0kWEOXg
